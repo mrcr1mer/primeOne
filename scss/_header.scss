@@ -1,0 +1,100 @@
+.header {
+	padding: 30px 0;
+	&__top {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__lang {
+	}
+	&__link {
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size: 12px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #000000;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	&__bottom {
+		margin: -15px 0 0 0;
+		display: flex;
+		align-items: center;
+	}
+	&__column {
+		flex: 0 0 33.333%;
+	}
+	&__menu {
+	}
+	&__logo {
+	}
+}
+
+.lang {
+	display: flex;
+	&__item {
+		display: block;
+		font-family: Bebas;
+		font-size: 12px;
+		line-height: 19 / 12 * 100%;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: black;
+		padding: 0 4px;
+		&:not(:last-child){
+			margin: 0px 10px 0px 0px;
+		}
+		&_act{
+			color: white;
+			background-color: black;
+		}
+		&:hover{
+			color: white;
+			background-color: black;
+		}
+	}
+}
+
+.menu {
+	&_act{
+		display: flex;
+		justify-content: flex-end;
+	}
+	&__list {
+		display: flex;
+	}
+	&__link {
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-size: 14px;
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #000000;
+		letter-spacing: 0.5px;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+	li{
+		&:not(:last-child){
+			margin: 0px 35px 0px 0px;
+		}
+	}
+}
+
+.logo {
+	display: block;
+	text-align: center;
+	&__text {
+		display: block;
+		font-family: Bebas;
+		font-size: 8px;
+		text-transform: uppercase;
+		letter-spacing: 1.0em;
+		color: #000000;
+	}
+	&__image {
+		display: inline-block;
+		margin: 13px 0 22px 0;
+	}
+}
+

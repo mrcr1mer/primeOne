@@ -1,0 +1,27 @@
+.footer {
+	padding: 45px 0;
+	&__body {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__column {
+	}
+	&__copy {
+		font-size: 15px;
+		line-height: 25px;
+		color: #4d4d4d;
+		a{
+			text-decoration: underline;
+			color: #4d4d4d;
+		}
+	}
+	&__logo {
+		display: inline-block;
+		width: 156px;
+		img{
+			max-width: 100%;
+		}
+	}
+}
+
